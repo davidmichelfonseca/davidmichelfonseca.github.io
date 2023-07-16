@@ -1,0 +1,310 @@
+body, html, canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.matrix-rain {
+    background-color: black;
+}
+
+/* Matrix rain */
+#matrixRain {
+    position: absolute;
+    z-index: 1;
+}
+
+#search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+#searchInput, #searchButton {
+    color: #0f0;
+    background-color: #000;
+    border: 1px solid #0f0;
+}
+
+#searchInput::placeholder {
+    color: #0f0;
+    opacity: 0.5;
+}
+
+#searchButton {
+    cursor: pointer;
+}
+
+/* About page */
+body.about-page {
+    background-color: white;
+}
+
+.about-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.about-page .navButton {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.about-page #content {
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 155px;
+}
+
+#searchInput {
+    width: 500px;
+    color: #0f0;
+    background-color: #000;
+    border: 1px solid #0f0;
+}
+/*... other styles ...*/
+
+/* Web Dev Journey page */
+body.webdev-page {
+    background-color: white;
+}
+
+.webdev-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.webdev-page .navButton {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+.webdev-page #content {
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 150px;
+}
+/* Social Media page */
+body.social-page {
+    background-color: white;
+}
+
+.social-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.social-page .navButton {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+body, html, canvas {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body.matrix-rain {
+    background-color: black;
+}
+
+/* Matrix rain */
+#matrixRain {
+    position: absolute;
+    z-index: 1;
+}
+
+#search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+}
+
+#searchInput, #searchButton {
+    color: #0f0;
+    background-color: #000;
+    border: 1px solid #0f0;
+}
+
+#searchInput::placeholder {
+    color: #0f0;
+    opacity: 0.5;
+}
+
+#searchButton {
+    cursor: pointer;
+}
+
+/* About page */
+body.about-page {
+    background-color: white;
+}
+
+.about-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.about-page .navButton {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.about-page #content {
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 155px;
+}
+
+#searchInput {
+    width: 500px;
+    color: #0f0;
+    background-color: #000;
+    border: 1px solid #0f0;
+}
+/*... other styles ...*/
+
+/* Web Dev Journey page */
+body.webdev-page {
+    background-color: white;
+}
+
+.webdev-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.webdev-page .navButton {
+    background-color: black;
+    color: white;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+.webdev-page #content {
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 150px;
+}
+/* Social Media page */
+body.social-page {
+    background-color: white;
+}
+
+.social-page #navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.social-page .navButton {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-page #content {
+    border: 5px solid black;
+    padding: 40px;
+    margin-left: 190px;
+}
+
+.social-page .button-grid {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.social-page .gif-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.social-page .gif-container img {
+    margin-right: 10px;
+}
+
